@@ -73,24 +73,7 @@ void loop() {
         moveCar(2, carSpeed);
         delay(700);
         // Serial.println("GOING LEFT");
-      } 
-      // else if (leftSwitchState == LOW && frontSwitchState == HIGH && rightSwitchState == HIGH) {
-      //   // move back
-      //   moveCar(1, carSpeed);
-      //   delay(100);
-      //   // move left
-      //   moveCar(2, carSpeed);
-      //   delay(700);
-      // } else if (leftSwitchState == HIGH && frontSwitchState == HIGH && rightSwitchState == LOW) {
-      //   // Move back
-      //   moveCar(1, carSpeed);
-      //   delay(100);
-      //   // move right
-      //   moveCar(3, carSpeed);
-      //   delay(700);
-      //   // Serial.println("HERE");
-      // } 
-      else if (leftSwitchState == LOW &&  rightSwitchState == LOW) {
+      } else if (leftSwitchState == LOW &&  rightSwitchState == LOW) {
         // When the middle switch is set off, move back for 200ms
         moveCar(1, carSpeed);
         delay(200);
